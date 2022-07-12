@@ -6,5 +6,5 @@ app = Flask(__name__)
 def index():
     return "hello world"
 
-
+variable = "como estas"
 
