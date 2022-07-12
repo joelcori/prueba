@@ -1,9 +1,10 @@
-from flask import flask
-
-HOST = "localhost"
-PORT = 4000
+from flask import Flask
 
 app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return "Bye Code"
 
 
 
